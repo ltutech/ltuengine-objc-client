@@ -19,7 +19,8 @@ Basic usage
 ------------
 
 The snippet of code used to communicate with LTU servers is in the function
-[LTUApp sendImageToLTU:(NSString *)imagePath]
+
+    [LTUApp sendImageToLTU:(NSString *)imagePath]
 
 By default the project compiles on Mac OS X but it is easy to port it to iOS
 by simply decommenting a small snippet of code.
